@@ -1,0 +1,43 @@
+{
+  "name": "trabajadores",
+  "version": "1.0.0",
+  "description": "Api con endpoint",
+  "main": "./bin/index.js",
+  "bin": {
+    "findmeserver": "index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisseYEA/IDW2018V-ESPINOSA-U4-EXAMEN.git"
+  },
+  "author": "Denisse Yaneth Espinosa Abando",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "morgan": "^1.8.2"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-jwt": "^5.3.0",
+    "http-status": "^1.0.1",
+    "jsonwebtoken": "^7.4.2",
+    "mongoose": "^4.11.7",
+    "path": "^0.12.7",
+    "qr-image": "^3.2.0",
+    "sendgrid": "^5.2.3",
+    "socket.io": "^2.0.3",
+    "underscore": "^1.8.3",
+    "wagner-core": "^0.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/DenisseYEA/IDW2018V-ESPINOSA-U4-EXAMEN/issues"
+  },
+  "homepage": "https://github.com/DenisseYEA/IDW2018V-ESPINOSA-U4-EXAMEN#readme"
+}
